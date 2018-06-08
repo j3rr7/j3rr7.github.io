@@ -1,7 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>fak this sh*t im out</p>
+<head>
+<meta charset="utf-8">
+<title>Nothing in particular</title>
+<link href="SideBar.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body data-spy="scroll">
+<div id="PanelLayer" style="display:none;text-align:left;">
+<img src="images/img0001.jpg" id="Banner1" alt="Side Bar" style="border-width:0;position:absolute;left:11px;top:4px;width:194px;height:52px;z-index:15;">
+<div id="wb_Copyrights" style="position:absolute;left:22px;top:287px;width:192px;height:14px;z-index:16;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Creative Common @jere_id</span></div>
+<div id="wb_CssMenu1" style="position:absolute;left:0px;top:96px;width:250px;height:160px;z-index:17;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="#top" target="_self">Home</a>
+</li>
+<li><a role="menuitem" href="#" target="_self">&nbsp;</a>
+</li>
+<li><a role="menuitem" href="#about" target="_self">About</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="Layer1" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:21;">
+<div id="Layer1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_top" style="position:absolute;left:933px;top:0px;width:20px;height:20px;z-index:0;">
+<a id="top" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="wb_Text2" style="position:absolute;left:221px;top:183px;width:528px;height:37px;text-align:center;z-index:1;">
+<span style="color:#000000;font-family:Arial;font-size:32px;"><strong>Hello, Welcome to my Website</strong></span></div>
+<input type="button" id="ButtonToggle" onclick="ShowPanel('PanelLayer', event);HidePanel('PanelLayer', event);return false;" name="" value="Try" style="position:absolute;left:415px;top:239px;width:113px;height:34px;z-index:2;">
+</div>
+</div>
+<div id="Layer2" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:22;">
+<div id="Layer2_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_about" style="position:absolute;left:933px;top:0px;width:20px;height:20px;z-index:3;">
+<a id="about" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="wb_Text3" style="position:absolute;left:36px;top:44px;width:871px;height:74px;text-align:center;z-index:4;">
+<span style="color:#261E13;font-family:Arial;font-size:24px;"><strong>About<br><br></strong></span><span style="color:#261E13;font-family:Arial;font-size:13px;">Hi my name is Jeremy feel free to ask me about anything.</span></div>
+</div>
+</div>
+<div id="Layer3" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:23;">
+<div id="Layer3_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_services" style="position:absolute;left:933px;top:0px;width:20px;height:20px;z-index:5;">
+<a id="services" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="wb_Text4" style="position:absolute;left:36px;top:52px;width:871px;height:74px;text-align:center;z-index:6;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>Services<br><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">I don't open for any service at the moment, but contact me for more info. Sometimes they ask me about stuff and ill be more than happy to help</span></div>
+</div>
+</div>
+<div id="Layer4" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:24;">
+<div id="Layer4_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_contact" style="position:absolute;left:933px;top:0px;width:20px;height:20px;z-index:7;">
+<a id="contact" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="wb_Text1" style="position:absolute;left:36px;top:52px;width:871px;height:74px;text-align:center;z-index:8;">
+<span style="color:#000000;font-family:Arial;font-size:24px;"><strong>Contact<br><br></strong></span></div>
+<div id="wb_Image1" style="position:absolute;left:350px;top:83px;width:65px;height:65px;z-index:9;">
+<img src="images/index.png" id="Image1" alt=""></div>
+<div id="wb_Text5" style="position:absolute;left:426px;top:97px;width:119px;height:37px;z-index:10;">
+<span style="color:#000080;font-family:'MS Sans Serif';font-size:32px;"><strong>J3rr71</strong></span></div>
+<div id="wb_Image2" style="position:absolute;left:357px;top:155px;width:50px;height:50px;z-index:11;">
+<img src="images/index.jpg" id="Image2" alt=""></div>
+<div id="wb_Text6" style="position:absolute;left:426px;top:163px;width:199px;height:35px;z-index:12;">
+<span style="color:#0000CD;font-family:'MS Serif';font-size:32px;">085234763233</span></div>
+<input type="button" id="Button1" onclick="window.location.href='http://line.me/ti/p/~j3rr71';return false;" name="Buttone1" value="" style="position:absolute;left:349px;top:87px;width:220px;height:61px;z-index:13;">
+<input type="submit" id="Button2" onclick="window.open("tel:+6285234763233");return false;" name="buttone2" value="" style="position:absolute;left:350px;top:155px;width:275px;height:59px;z-index:14;">
+</div>
+</div>
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script src="wwb14.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
