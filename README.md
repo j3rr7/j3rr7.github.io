@@ -5,7 +5,7 @@ Simple yet useful (At least for me) Website pages
 
 
 ## License
-![GitHub (pre-)release](https://img.shields.io/github/release/qubyte/rubidium/all.svg?style=for-the-badge&?label=jere_id)
+![GitHub (pre-)release](https://img.shields.io/badge/relase-1.0.0-brightgreen.svg)
 
 
 
