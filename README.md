@@ -8,7 +8,7 @@ Simple yet useful (At least for me) Website pages
 
 This project is licensed under the WTFPL License 
 
-[WTFPL]
+[WTFPL](WTFPL)
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
