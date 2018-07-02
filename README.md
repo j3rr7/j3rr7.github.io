@@ -5,7 +5,7 @@ Simple yet useful (At least for me) Website pages
 
 
 ## License
-###WTFPL
+### WTFPL
 This project is licensed under the [WTFPL] License 
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
