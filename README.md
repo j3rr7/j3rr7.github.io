@@ -9,7 +9,7 @@ Simple yet useful (At least for me) Website pages
 
 
 
-This project is licensed under the [WTFPL License](http://www.wtfpl.net/txt/copying/) 
+This project is licensed under the [WTFPL License](http://www.wtfpl.net/) 
 
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
