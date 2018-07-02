@@ -5,7 +5,7 @@ Simple yet useful (At least for me) Website pages
 
 
 ## License
-![GitHub (pre-)release](https://img.shields.io/badge/relase-1.0.0-brightgreen.svg?longCache=true&style=1.0.0)
+![GitHub (pre-)release](https://img.shields.io/badge/relase-1.0.0-brightgreen.svg?longCache=true&style=for-the-badge)
 
 
 
