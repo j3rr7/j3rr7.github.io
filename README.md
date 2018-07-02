@@ -6,7 +6,7 @@ Simple yet useful (At least for me) Website pages
 
 ## License
 ### WTFPL
-This project is licensed under the [WTFPL] License 
+This project is licensed under the [WTFPL](http://www.wtfpl.net/txt/copying/) License 
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
