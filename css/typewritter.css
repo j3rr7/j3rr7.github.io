@@ -1,0 +1,12 @@
+
+body {
+  color: rgba(255,255,255,.75);
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+  text-align: center;
+  padding: 8em;
+}
+
