@@ -1,1 +1,0 @@
-Add here your background called "background.jpg".
