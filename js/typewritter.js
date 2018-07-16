@@ -2,6 +2,9 @@
 var aText = new Array(
 "People only see what they are prepared to see", 
 "-Ralph Waldo Emerson-"
+""
+""
+""
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
