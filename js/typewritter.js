@@ -2,8 +2,10 @@
 var aText = new Array(
 "People only see what they are prepared to see", 
 "- Ralph Waldo Emerson -",
+"",
 "“The way get started is to quit talking and begin doing.” ",
 "– Walt Disney -",
+ "",
 "“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”",
 "– Unknown -"
 );
