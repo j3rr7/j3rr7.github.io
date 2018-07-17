@@ -5,7 +5,7 @@ var aText = new Array(
 "",
 "“The way get started is to quit talking and begin doing.” ",
 "– Walt Disney -",
- "",
+"",
 "“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”",
 "– Unknown -"
 );
