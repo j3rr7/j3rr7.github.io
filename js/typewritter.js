@@ -1,13 +1,12 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"People only see what they are prepared to see", 
-"- Ralph Waldo Emerson -",
+"This page is blank", 
+"- The creator are too lazy just to add another content -",
 "",
-"“The way get started is to quit talking and begin doing.” ",
-"– Walt Disney -",
+"So just wait till other content is finished",
 "",
-"“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”",
-"– Unknown -"
+"Thanks for visiting this simple website anyway :v",
+"– Feel free to contact me :v -"
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
