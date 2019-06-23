@@ -24,7 +24,7 @@
         </video>
     </div>
     
-    <div class="jumbotron bg-transparent mb-0 radius-0">
+    <div class="jumbotron bg-transparent mb-0 radius-0" style="margin: 0 auto;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -73,15 +73,28 @@
             </div>
         </div>
     </div>
+    
     <br/>
+    
     <center>
         <div class="musicc">
-            <audio autoplay="true" loop crossorigin>
+            <!--audio autoplay="true" loop preload="auto" autoplay crossorigin>
                 <source src="music/porterrobinson.mp3" type="audio/mpeg">
+            </audio-->
+            <audio style="display: block;margin-left: auto;margin-right: auto;" src="music/porterrobinson.mp3" autoplay="true" loop preload="auto">	
+                <embed 
+                src="music/porterrobinson.mp3"
+                width="300"
+                height="90"
+                loop="true"
+                autostart="true"
+                autoplay="true">
             </audio>
         </div>
     </center>
+    
     <br/>
+    
     <div class="discord">
         <center>
             <iframe src="https://discordapp.com/widget?id=290119656960950273&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0">
