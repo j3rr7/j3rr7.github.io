@@ -1,0 +1,32 @@
+<footer class="footer">
+  <p>
+    &copy; 2022 Copyright by
+    <a class="highlight-link" href="https://j3rr7.github.io/" target="_blank" rel="noreferrer">
+      j3rr7
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+{% if site.google-analytics %}
+<script async src="{{ "https://www.googletagmanager.com/gtag/js?id=" | append: site.google-analytics.id }}"></script>
+<script>
+var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google-analytics.id }}', { 'send_page_view': false });
+  }
+</script>
+{% endif %}
