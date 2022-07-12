@@ -70,6 +70,7 @@ plugins:
   
 exclude:
   [
+    "vendor",
     "_assets",
     "Gemfile",
     "Gemfile.lock",
